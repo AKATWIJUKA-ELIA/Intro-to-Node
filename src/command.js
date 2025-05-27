@@ -9,7 +9,7 @@ const listNotes = notes => {
                 console.log('content', content);
                 console.log('\n')
 
-          })
+          }) 
 }
 yargs(hideBin(process.argv))
 .command('new <note>', ' create a new ', yargs =>{
